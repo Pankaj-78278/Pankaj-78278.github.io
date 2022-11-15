@@ -42,6 +42,12 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" />
   <link rel="stylesheet" href="css/grid.min.css" />
   <link rel="stylesheet" href="css/style.css" />
+  <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"
+  />
+  <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
 </head>
 
 <body>
@@ -265,6 +271,29 @@
       </div>
     </div>
   </section>
+<!-- My Work Ends  -->
+<!--Git hub Start  -->
+  <!-- Git hub calender -->
+  <section class="contact" id="contact">
+    <div class="max-width">
+      <!-- <h2 class="title">Github Contribution</h2> -->
+      <h2 class="title">Github Contribution</h2>
+      <div class="calendar">
+        <!-- Loading stuff -->
+      </div>
+      <div id="gitstrekdiv">
+        <img
+          class="gitstrek"
+          src="https://github-readme-streak-stats.herokuapp.com/?user=Pankaj-78278&theme=react-dark"
+        />
+        <img
+          class="gitstrek"
+          src="https://github-readme-stats.vercel.app/api?username=Pankaj-78278&show_icons=true&locale=en&theme=react-dark"
+        />
+      </div>
+    </div>
+  </section>
+<!-- Github Ends   -->
 
   <section>
     <div class="container experience">
@@ -282,6 +311,7 @@
           
     </section> 
           <!-- Work Experience Ends  -->
+
           <!-- My Contact Starts  -->
           <section class="bg">
             <div class="container contact" id="contact">
@@ -343,7 +373,7 @@
           <!-- Footer Ends  -->
           <section></section>
           <!-- Schema Starts  -->
-          <script type="application/ld+json">
+    <script type="application/ld+json">
       {
         "@context": "http://schema.org",
         "@type": "Person",
@@ -359,7 +389,11 @@
     </script>
           <!-- schema ends -->
           <!-- Some text for seo -->
-
+<!-- <script>
+  GitHubCalendar(".calendar", "Pankaj-78278");
+  // or enable responsive functionality
+  GitHubCalendar(".calendar", "pankaj-78278", { responsive: true });
+</script> -->
           <!-- seo text end -->
           <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
           <script src="js/wow.min.js"></script>
@@ -370,3 +404,8 @@
 </body>
 
 </html>
+<script>
+  GitHubCalendar(".calendar", "Pankaj-78278");
+  // or enable responsive functionality
+  GitHubCalendar(".calendar", "pankaj-78278", { responsive: true });
+</script>

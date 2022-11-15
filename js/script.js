@@ -92,3 +92,7 @@ window.addEventListener("scroll", () => {
     navbarNav.classList.remove("navBar");
   }
 });
+
+// GitHubCalendar(".calendar", "Pankaj-78278");
+// // or enable responsive functionality
+// GitHubCalendar(".calendar", "pankaj-78278", { responsive: true });

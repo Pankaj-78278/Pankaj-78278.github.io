@@ -524,19 +524,13 @@ a {
 .projects .project img {
   width: 100%;
 }
-/* @media (max-width:980px) {
- 
-  #home{
-    width: 100%;
-  }
-  #about{
-    width: 100%;
-  }
-  #skills{
+@media(max-width:1200px) {
+  #contacted{
     width: 100%;
   }
   
-} */
+  
+}
 
 @media (max-width: 992px) {
   .navbar .navbar-nav {

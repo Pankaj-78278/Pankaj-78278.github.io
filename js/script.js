@@ -11,6 +11,13 @@ frm.addEventListener("submit", (e) => {
   );
 });
 
+
+    document.querySelector(".resumeLink").onclick = function (){
+      let redirectwindow=window.open("https://drive.google.com/file/d/160sezaKt47pgrUGdS9BhGc0_4iewZXhf/view?usp=sharing", "_blank");
+      redirectwindow.location;
+    };
+ 
+
 document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
   anchor.addEventListener("click", function (e) {
     e.preventDefault();
